@@ -13,6 +13,7 @@ print "Worksheet name(s):", wb.get_sheet_names()
 # 取第一张表
 sheetnames = wb.get_sheet_names()
 ws = wb.get_sheet_by_name(sheetnames[0])
+ws=wb.active
 
 # 显示表名，表行数，表列数
 print "Work Sheet Titile:", ws.title
